@@ -2,7 +2,7 @@
 Angular package that converts English numbers to Nepali numbers.
 
 # Installation
-Use Node Package Manager [npm]((https://www.npmjs.com)) to install ngx-nepali-number.
+Use Node Package Manager [npm](https://www.npmjs.com) to install ngx-nepali-number.
 ```
 npm install ngx-nepali-number
 ```
