@@ -47,7 +47,7 @@ You can use `ngx-nepali-number` as both angular `pipe` & `directive`.
 ```
 2. Using as angular `directive` in your template
 ```html
-    Total Price:<input type="number" nepaliNumber>
+    Total Price:<input type="number" nepaliNumber/>
 ```
 if you want to bind converted nepali number into your `formControl` name just pass `[formControl]` as Angular `Input`.
 
@@ -67,7 +67,7 @@ class AppComponent implements OnInit {
 ```
 Template:
 ```html
-    Total Price:<input type="number" nepaliNumber [formControl]="totalPrice">
+    Total Price:<input type="number" nepaliNumber [formControl]="totalPrice"/>
     <p>You have entered {{ totalPrice.value }} as total price.</p>
 ```
 
