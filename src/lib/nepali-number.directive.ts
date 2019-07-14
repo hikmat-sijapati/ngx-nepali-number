@@ -10,7 +10,6 @@ export class NepaliNumberDirective {
   /**
    * FormControl to bind converted value on change
    *
-   * @type {FormControl}
    */
   @Input() public formControl: FormControl;
 
