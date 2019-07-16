@@ -21,14 +21,14 @@ export class NepaliNumberDirective {
   @HostListener('input') oninput() {
     const elementValue = this.elementRef.nativeElement.value;
     const nepaliValue = this.nepaliNumberService.convertToNepaliNumber(elementValue);
-    if(elementValue) {
+    if (elementValue) {
       this.elementRef.nativeElement.value = nepaliValue;
     }
-    
+
     /**
      * If formcontrol value passed
      */
-    if(this.formControl) {
+    if (this.formControl) {
       this.formControl.setValue(nepaliValue);
     }
   }

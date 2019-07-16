@@ -1,7 +1,7 @@
 /**
  * English to Nepali number mapping object
  */
-export const numberMapping: Object = {
+export const numberMapping: object = {
     0: '०',
     1: '१',
     2: '२',
